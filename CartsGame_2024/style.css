@@ -1,0 +1,73 @@
+.gameContainer{
+    border: 1px solid #2E9AFF;
+}
+#playerField{
+    height: 110px;
+    border: 1px solid #3fff2e;
+}
+#warField{
+    height: 210px;
+    border: 1px solid #ffb22e;
+}
+#enemyField{
+    height: 110px;
+    border: 1px solid #ff2e2e;
+}
+/*Стили карт*/
+.card{
+    float: left;
+    position: relative;
+    border: 1px solid #000000;
+    width: 60px;
+    height: 100px;
+}
+.card .powerPin{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background-color: aliceblue;
+}
+.card .manaPin{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: aliceblue;
+}
+.card img{
+position: absolute;
+left: 0;
+top: 0;
+z-index: 0;
+}
+.card .namePin{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: aliceblue;
+    font-size: 10px;
+}
+#emptyCard{
+    display: none;
+}
+/*Стили ячеек*/
+.pairCell .topCell{
+    margin-top: 2px;
+    border: 1px solid #000000;
+    width: 60px;
+    height: 100px;
+}
+.pairCell .botCell{
+    margin-top: 2px;
+    border: 1px solid #000000;
+    width: 60px;
+    height: 100px;
+}
+.pairCell{
+    float: left;
+    width: 62px;
+    height: 202px;
+    margin-right: 2px;
+}
